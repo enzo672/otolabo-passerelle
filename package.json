@@ -1,0 +1,11 @@
+{
+  "name": "otolabo-passerelle",
+  "private": true,
+  "type": "module",
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "gateway": "npm start -w @otolabo/gateway",
+    "once": "npm run once -w @otolabo/gateway"
+  },
+  "engines": { "node": ">=22" }
+}
